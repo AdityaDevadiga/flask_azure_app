@@ -12,3 +12,5 @@ def calculate():
         bmi = round(w/((h/100)**2))
     return render_template('index.html',bmi=bmi)
 
+if __name__ == '__main__':
+    app.run()
